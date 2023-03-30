@@ -1,0 +1,98 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-image: url(paper.jpg);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color: #675D50
+    
+
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+table {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #aaaaaa;
+}
+
+.result {
+    margin-top: 30px;
+    margin-left: 750px;
+    font-weight: bold;
+}
+
+.remarks {
+    margin-top: 20px;
+    margin-left: 750px;
+    font-weight: bold;
+}
+
+.grade {
+    margin-top: 20px;
+    margin-left: 750px;
+    font-weight: bold;
+}
+.imagee {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+#remarks {
+    font-weight: bold;
+}
+#grade {
+    font-weight: bold;
+}
+#average {
+    font-weight: bold;
+}
